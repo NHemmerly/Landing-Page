@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 48px;
+}
+
+.header, .hero {
+    padding: 0vh 10vw;
+}
+
+
+
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
