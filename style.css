@@ -13,7 +13,7 @@ ul {
 }
 
 .header, .hero {
-    padding: 0vh 10vw;
+    width: 70vw;
 }
 
 
@@ -27,6 +27,46 @@ ul {
     align-items: center;
 }
 
+.hero {
+    display: flex;
+
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero img {
+    width: 40%;
+    margin: 32px 0px;
+    border: 5px solid #F9FAF8;
+    height: auto;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 12px 48px;
+    border: none;
+    border-radius: 12px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+}
+
 a {
     text-decoration: none;
     font-size: 18px;
@@ -38,5 +78,6 @@ a {
     background-color: #1f2937;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
