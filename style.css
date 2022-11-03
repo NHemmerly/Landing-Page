@@ -1,6 +1,8 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0;
 }
 
@@ -12,8 +14,14 @@ ul {
     gap: 48px;
 }
 
-.header, .hero {
+.header, .hero{
     width: 70vw;
+}
+
+.container-1 {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -82,5 +90,16 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+/* Information section styling */
+
+.info {
+    display: flex;
+    color: #1f2937;
+    background-color: white;
+}
+.info h1 {
+    font-size: 36px;
 }
 
