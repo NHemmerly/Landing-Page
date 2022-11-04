@@ -99,10 +99,25 @@ a {
 
 .info {
     display: flex;
+    flex-direction: column;
     color: #1f2937;
     background-color: white;
 }
 .info h1 {
     font-size: 36px;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+}
+.card img {
+    max-width: 200px;
+    max-height: 200px;
+}
+.card {
+    max-width: 200px;
+    max-height: 200px;
+    border: 5px solid;
 }
 
