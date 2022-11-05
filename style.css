@@ -15,20 +15,30 @@ ul {
     gap: 48px;
 }
 
+.item,
+.container-1,
+.header,
+.hero,
+.sign-up,
+.container,
+.info,
+.cards
+ {
+    display: flex;
+}
+
 .header, .hero{
     width: 70vw;
 }
 
 .container-1 {
     width: 70vw;
-    display: flex;
     justify-content: center;
 }
 
 
 
 .header {
-    display: flex;
     flex-wrap: nowrap;
     font-size: 24px;
     color: #F9FAF8;
@@ -37,7 +47,6 @@ ul {
 }
 
 .hero {
-    display: flex;
     gap: 16px;
 }
 
@@ -72,7 +81,6 @@ ul {
 }
 
 .sign-up {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
@@ -87,7 +95,6 @@ a {
 }
 
 .container {
-    display: flex;
     background-color: #76dd78;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +105,6 @@ a {
 /* Information section styling */
 
 .info {
-    display: flex;
     flex-direction: column;
     color: #1f2937;
     background-color: white;
