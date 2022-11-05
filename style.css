@@ -15,6 +15,10 @@ ul {
     gap: 48px;
 }
 
+p {
+    font-size: 20px;
+}
+
 .item,
 .container-1,
 .header,
@@ -23,7 +27,8 @@ ul {
 .container,
 .info,
 .cards,
-.quote
+.quote,
+.call-to-action
  {
     display: flex;
 }
@@ -51,6 +56,8 @@ ul {
 }
 
 .hero {
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
@@ -74,10 +81,10 @@ ul {
     flex: 1;
 }
 
-.hero button {
+button {
     background-color: #b4e9a9;
     color: #FFF;
-    padding: 12px 48px;
+    padding: 8px 32px;
     border: none;
     border-radius: 12px;
     font-size: 16px;
@@ -167,4 +174,30 @@ a {
     align-self: flex-end;
 }
 
+/* Call to Action */
+
+.call-to-action {
+    width: 70vw;
+    background-color: #b4e9a9;
+    margin: 10vh;
+    padding: 1vw 1vh;
+    border: none;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.call-to-action .text {
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+}
+
+.call-to-action button {
+    font-size: 20px;
+    border: 3px solid #F9FAF8;
+    background-color: #76dd78;
+}
 
