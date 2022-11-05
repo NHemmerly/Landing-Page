@@ -133,7 +133,7 @@ a {
     width: 70vw;
     justify-content: center;
     gap: 5vw;
-    margin-bottom: 10vh;
+    margin-bottom: 48px;
 }
 .card img {
     max-width: 200px;
@@ -201,3 +201,11 @@ a {
     background-color: #76dd78;
 }
 
+/* Footer */
+
+.footer {
+    background-color: #76dd78;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
