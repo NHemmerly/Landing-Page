@@ -22,17 +22,21 @@ ul {
 .sign-up,
 .container,
 .info,
-.cards
+.cards,
+.quote
  {
     display: flex;
 }
 
-.header, .hero{
+.header, 
+.hero, 
+.info, 
+.quote{
     width: 70vw;
 }
 
 .container-1 {
-    width: 70vw;
+    width: 100%;
     justify-content: center;
 }
 
@@ -107,7 +111,6 @@ a {
 .info {
     flex-direction: column;
     color: #1f2937;
-    background-color: white;
     align-items: center;
     justify-content: space-around;
 }
@@ -123,6 +126,7 @@ a {
     width: 70vw;
     justify-content: center;
     gap: 5vw;
+    margin-bottom: 10vh;
 }
 .card img {
     max-width: 200px;
@@ -146,4 +150,21 @@ a {
     font-size: 18px;
     text-align: center;
 }
+
+/* Quote section */
+
+#quote {
+    background-color: #E5E7Eb;
+}
+
+.quote {
+    font-size: 36px;
+    flex-direction: column;
+    margin: 10vh;
+}
+
+#author {
+    align-self: flex-end;
+}
+
 
