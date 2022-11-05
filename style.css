@@ -109,16 +109,20 @@ a {
     color: #1f2937;
     background-color: white;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .info h1 {
     font-size: 36px;
     margin: 48px;
+    text-align: center;
 }
 
 .cards {
     display: flex;
-    gap: 32px;
+    flex-wrap: wrap;
+    width: 70vw;
+    justify-content: center;
+    gap: 5vw;
 }
 .card img {
     max-width: 200px;
@@ -128,9 +132,18 @@ a {
 }
 .card {
     background-color: #ffb84f;
-    max-width: 200px;
-    max-height: 200px;
     border: 5px solid #ffb84f;
     border-radius: 12px;
+}
+
+.item {
+    flex-flow: column wrap;
+    gap: 24px;
+    max-width: 200px;
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;
 }
 
